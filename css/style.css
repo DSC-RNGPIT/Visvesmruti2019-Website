@@ -1,0 +1,14 @@
+@import url("fonts.css");
+@import url("base.css");
+@import url("sections.css");
+@import url("fancybox.css");
+
+.blinking{
+    animation:blinkingText 3s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #FFF;    }
+    49%{    color: rgb(20,151,157); }
+    50%{    color: #FFF; }
+    100%{   color: rgb(20,151,157);    }
+}
